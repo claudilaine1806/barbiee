@@ -2,19 +2,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 :root {
-    --laranja-claro: #FF862A;
-    --alto-contraste-fundo: #000000;
+    --laranja-claro: #111010;
+    --alto-contraste-fundo: #f804d0;
     --alto-contraste-texto: #ffffff;
-    --alto-contraste-link: #ffd700;
+    --alto-contraste-link: #c909af;
 }
 
 body {
     font-size: 1rem;
     font-family: 'Montserrat';
+    background-color: rgb(204, 106, 183);
 }
 
 header {
-    background-color: #ffffff;
+    background-color: #a10688;
 }
 
 
@@ -24,13 +25,13 @@ section {
 
 
 .nav-link {
-    color: #CB6D43;
+    color: #cc4ba1;
     font-weight: 600;
 }
 
 .inicio-fundo {
     /* aula 3 */
-    background-image: url('img/4965007.jpg');
+    background-image: url('download.png');
     /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: right;
@@ -79,9 +80,9 @@ section {
     padding-top: 5rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    background: url('img/flor.png') top right no-repeat,
-        url('img/flor-esquerda.png') bottom left no-repeat;
-    background-size: 180px 180px;
+    background: url('Barbie-15_Easy-Resize.com_-e1689704707118.jpg') top right no-repeat,
+        url('tudo-sobre-o-figurino-de-barbie-moda-barbie-margot-robbie-20230718202644.webp') bottom left no-repeat;
+    background-size: 100px 100px;
     /* Ajuste o tamanho conforme necessário */
 }
 
@@ -103,7 +104,7 @@ h2 {
 }
 
 #galeria {
-    background-color: #FAF4F4;
+    background-color: #f70fa9;
 
 }
 
@@ -121,12 +122,12 @@ h2 {
 }
 
 .formulario {
-    background-color: #ffffff;
+    background-color: #c70897;
     padding: 2rem;
     /* Espaçamento interno dentro do formulário */
     border-radius: 10px;
     /* Borda arredondada para o formulário */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(235, 11, 141, 0.1);
     /* Sombra suave para destacar o formulário */
     font-weight: bold;
 }
@@ -138,7 +139,7 @@ h2 {
 }
 
 .form-control {
-    background-color: #F1EDEF;
+    background-color: #ffffff;
 }
 .menu-acessibilidade{
     position: fixed;
@@ -189,12 +190,12 @@ h2 {
 }
 
 .alto-contraste #tropicalia {
-    background: none;
+    background: rgb(rgb(255, 0, 200), green, blue);
 }
 
 .alto-contraste #galeria {
-    background-color: var(--alto-contraste-fundo);
+    background-color: var(--rgb-claro);
 }
 .alto-contraste .fundo-galeria {
-    background: none;
+    background: rgb(119, 109, 117);
 }
